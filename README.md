@@ -79,8 +79,6 @@ python -m venv venv && source venv/bin/activate   # or venv\Scripts\activate on 
 pip install -r requirements.txt
 
 cp .env.example .env
-# Edit .env: set LLM_PROVIDER=groq and GROQ_API_KEY=<your free key from https://console.groq.com/keys>
-# (or LLM_PROVIDER=gemini with a free key from https://aistudio.google.com/app/apikey)
 ```
 
 Run:
